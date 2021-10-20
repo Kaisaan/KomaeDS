@@ -4,7 +4,7 @@ Nagito Komaeda for the Nintendo DS
 
 # Building 
 
-Just run `build.bat`, latest version of DevkitARM needed (probably).
+Run `build.bat`. Built with latest version of DevkitARM.
 
 # Credits
 
