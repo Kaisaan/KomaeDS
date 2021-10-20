@@ -7,9 +7,9 @@ $(error "Please set DEVKITARM in your environment. export DEVKITARM=<path to>dev
 endif
 
 # These set the information text in the nds file
-#GAME_TITLE     := My Wonderful Homebrew
-#GAME_SUBTITLE1 := built with devkitARM
-#GAME_SUBTITLE2 := http://devitpro.org
+GAME_TITLE     := Nagito Komaeda
+GAME_SUBTITLE1 := On the Nintendo DS
+GAME_SUBTITLE2 := by Kaisaan Siddiqui
 
 include $(DEVKITARM)/ds_rules
 
@@ -31,7 +31,7 @@ INCLUDES := include
 DATA     := data
 GRAPHICS :=	images
 AUDIO    :=	audio
-ICON     :=
+ICON     := 
 
 # specify a directory which contains the nitro filesystem
 # this is relative to the Makefile

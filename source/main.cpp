@@ -32,6 +32,7 @@ int main(void)
 	iprintf("\tIt's me, Nagito Komaeda\n");
 	iprintf("\tOn the Nintendo DS!\n");
 	iprintf("\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+	iprintf("\n\n\tMade by Kaisaan Siddiqui");
 
 	int bg3 = bgInit(3, BgType_Bmp8, BgSize_B8_256x256, 0,0);
 
